@@ -1,6 +1,6 @@
 # A Kinda Simple LaTeX Report Template
 
->Note: This template was adapted by a report template created by Kartik Singhal under theCreative Commons Attribution 4.0 International License. You can their template at the repository linked [here](https://github.com/googol-lab/latex-project-report-template)
+>Note: This template was adapted by a report template created by Kartik Singhal under theCreative Commons Attribution 4.0 International License. You can view their template at the repository linked [here](https://github.com/googol-lab/latex-project-report-template)
 
 After finding a fantastic LaTeX report template (linked above), I discovered it was in fact, a bit too good for my needs. Therefore, I've adapted the original into a template that fit my needs better as an undergrad engineering student. 
 
