@@ -11,6 +11,8 @@
 \usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={<pdf title here>}, pdfauthor={<author's name here>}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
 %\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
 
+\input{listings.tex}    % Import the listings package & MATLAB style 
+
 \usepackage{titlesec}
 \titleformat{\chapter}[block]
   {\normalfont\huge\bfseries}{\thechapter}{20pt}{\Huge} % Formats chapters so number and chapter name are inline, comment out to revert to default  
@@ -19,8 +21,8 @@
 \renewcommand\bibname{References} %Renames "Bibliography" to "References" on ref page
 
 %include other pages
-\input{./title.tex}
-% \input{./abstract.tex}
+\input{./01_title.tex}
+% \input{./02_abstract.tex}
 
 \pagenumbering{roman} %numbering before main content starts
 \tableofcontents
@@ -30,10 +32,10 @@
 \pagenumbering{arabic} %reset numbering to normal for the main content
 
 
-\input{./introduction.tex} 
-\input{./procedure.tex}
-\input{./results.tex}
-\input{./ref.tex}
-\input{./appendix.tex}
+\input{./03_introduction.tex} 
+\input{./04_procedure.tex}
+\input{./05_results.tex}
+\input{./06_ref.tex}
+\input{./07_appendix.tex}
 
 \end{document}
